@@ -1,0 +1,41 @@
+/* style for navigation bar */
+#navigation-header{
+	min-height: 50px;
+	background-color: #f2f2f2;
+}
+
+/* style for home page */
+#home-page-content{
+	min-height: 600px;
+}
+
+/* signup page */
+#signup-page-content{
+	min-height: 600px;
+	margin-bottom: 20px;
+}
+
+h2{
+	text-align: center;
+}
+
+#signup-error-msg{
+	
+}
+
+/* style for footer */
+#footer-div{
+	min-height: 50px;
+	background-color: #000;
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+}
+
+/* logout form */
+#logout-form button{
+	margin-top: 8px;
+	margin-left: 13px;
+}
+
+

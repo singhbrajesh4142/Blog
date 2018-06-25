@@ -17,10 +17,10 @@
 					$resultCount = mysqli_num_rows($result);
 					if($resultCount > 0){
 						// profile pic exist
-						echo '<img src="profileUploads/'.$username.'.jpg" class="img-responsive img-circle">';
+						echo '<img src="profileUploads/'.$username.'.jpg" >';
 					}else{
 						// profile pic does not exist
-						echo '<img src="image/default_profile_pic.jpg" class="img-responsive img-circle">';
+						echo '<img src="image/default_profile_pic.jpg" >';
 					}
 					
 				?>
@@ -136,10 +136,17 @@
 }
 
 #profile-pic{
-	height: 150px;
-	width:150px;
+	height: 180px;
+	width:180px;
 	margin:auto;
-	border-radius: 75px;
+	border-radius: 90px;
+	overflow: hidden;
+}
+#profile-pic img{
+	height: 180px;
+	width:180px;
+	margin:auto;
+	border-radius: 90px;
 }
 
 #profile-page-content{
